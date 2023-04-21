@@ -1,0 +1,89 @@
+body {
+    width: 100%;
+}
+
+.name-input {
+    width: 50%;
+    height: 5vh;
+    border: 3px solid #02c39a;
+    background-color: #2b2d42;
+    color: #02c39a;
+    box-shadow: 0 0 5px #02c39a;
+    border-radius: 10%;
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: #02c39a;
+    opacity: 1; /* Firefox */
+  }
+  
+  :-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: #02c39a;
+  }
+  
+  ::-ms-input-placeholder { /* Microsoft Edge */
+    color: #02c39a;
+  }
+
+.email-input {
+    width: 50%;
+    height: 5vh;
+    border: 3px solid #02c39a;
+    background-color: #2b2d42;
+    color: #02c39a;
+    box-shadow: 0 0 5px #02c39a;
+    border-radius: 10%;
+}
+
+.message-textarea {
+    width: 50%;
+    border: 3px solid #02c39a;
+    background-color: #2b2d42;
+    color: #02c39a;
+    box-shadow: 0 0 5px #02c39a;
+    border-radius: 10%;
+}
+
+.submit-contact {
+    width: 15%;
+    background: #02c39a;
+    border: none;
+    box-shadow: 0 0 5px #02c39a, 0 0 20px #02c39a;
+    border-radius: 25%;
+    margin-top: 15px;
+}
+
+.center-divs {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    text-align: center;
+}
+
+.foot-con {
+    position:fixed;
+    bottom:0;
+    width: 100%;
+}
+
+
+@media (max-width: 420px) {
+    .foot-con {
+        margin-bottom: 15px;
+    }
+
+    .contact-form {
+        margin-top: 15vh;
+    }
+}
+
+@media (max-width: 680px) {
+    .foot-con {
+        margin-bottom: 15px;
+    }
+
+    .contact-form {
+        margin-top: 15vh;
+    }
+}
