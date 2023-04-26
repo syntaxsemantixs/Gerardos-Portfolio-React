@@ -5,49 +5,49 @@ body {
 .name-input {
     width: 50%;
     height: 5vh;
-    border: 3px solid #02c39a;
+    border: 3px solid #0283c3;
     background-color: #2b2d42;
-    color: #02c39a;
-    box-shadow: 0 0 5px #02c39a;
+    color: #0283c3;
+    box-shadow: 0 0 5px #0283c3;
     border-radius: 10%;
 }
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
-    color: #02c39a;
+    color: #0283c3;
     opacity: 1; /* Firefox */
   }
   
   :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: #02c39a;
+    color: #0283c3;
   }
   
   ::-ms-input-placeholder { /* Microsoft Edge */
-    color: #02c39a;
+    color: #0283c3;
   }
 
 .email-input {
     width: 50%;
     height: 5vh;
-    border: 3px solid #02c39a;
+    border: 3px solid #0283c3;
     background-color: #2b2d42;
-    color: #02c39a;
-    box-shadow: 0 0 5px #02c39a;
+    color: #0283c3;
+    box-shadow: 0 0 5px #0283c3;
     border-radius: 10%;
 }
 
 .message-textarea {
     width: 50%;
-    border: 3px solid #02c39a;
+    border: 3px solid #0283c3;
     background-color: #2b2d42;
-    color: #02c39a;
-    box-shadow: 0 0 5px #02c39a;
+    color: #0283c3;
+    box-shadow: 0 0 5px #0283c3;
     border-radius: 10%;
 }
 
 .submit-contact {
     width: 15%;
-    background: #02c39a;
+    background: #0283c3;
     border: none;
-    box-shadow: 0 0 5px #02c39a, 0 0 20px #02c39a;
+    box-shadow: 0 0 5px #0283c3, 0 0 20px #0283c3;
     border-radius: 25%;
     margin-top: 15px;
 }

@@ -9,8 +9,8 @@ export default function Router() {
     return (
       <>
         <Routes>
-          <Route path="/about-me" element={<About />} />
-          <Route path="/works" element={<Work />} />
+          <Route path="/" element={<About />} />
+          <Route path="/work" element={<Work />} />
           <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
         </Routes>

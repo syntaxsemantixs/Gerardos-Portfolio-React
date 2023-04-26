@@ -12,8 +12,8 @@ export default function Res() {
     const [myRes, setMyRes] = useState([
         {
             image: Resume,
-            title: "Bootleg Spotify",
-            ResumeLink: "https://docs.google.com/document/d/12aDM7RSDITaVYjmDEciq0ZFVRcKay-xb/edit?usp=drive_web&ouid=107310610134126438495&rtpof=true",
+            title: "Resume",
+            resumeLink: "https://docs.google.com/document/d/12aDM7RSDITaVYjmDEciq0ZFVRcKay-xb/edit?usp=drive_web&ouid=107310610134126438495&rtpof=true",
         }
     ]);
 
@@ -23,7 +23,7 @@ export default function Res() {
                 <Header />
             </div>
             <div className='section-header'>
-                <h2 className='header-h2'>Projects</h2>
+                <h2 className='header-h2'>Resume</h2>
             </div>
             <div className='work-div'>
                 {myRes.map((work) => {
@@ -31,9 +31,8 @@ export default function Res() {
                     <WorkDiv
                     image={work.image}
                     title={work.title}
-                    description={work.description}
-                    deployed={work.deployed}
-                    github={work.github}
+                    resumeLink={work.resumeLink}
+
                     />
                     );
                 })}
