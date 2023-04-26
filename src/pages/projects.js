@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import Header from "../components/Header.js";
 import Footer from "../components/Footer.js";
-import WorkDiv from "../components/work.js"
+import WorkDiv from "../components/Projects.js"
 // import photos of projects
 import Bootleg from "../imgs/bootleg-spotify.png";
 import Pospamper from "../imgs/pospamper.png";
