@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import Header from "../components/Header.js";
 import Footer from "../components/Footer.js";
 import Resume from "../imgs/resume.png"
-import WorkDiv from "../components/work.js"
+import WorkDiv from "../components/Resume.js"
 import "../stylesheets/work.css";
 import "../stylesheets/App.css";
 
@@ -13,7 +13,7 @@ export default function Res() {
         {
             image: Resume,
             title: "Resume",
-            resumeLink: "https://docs.google.com/document/d/12aDM7RSDITaVYjmDEciq0ZFVRcKay-xb/edit?usp=drive_web&ouid=107310610134126438495&rtpof=true",
+            resume: "https://docs.google.com/document/d/12aDM7RSDITaVYjmDEciq0ZFVRcKay-xb/edit?usp=drive_web&ouid=107310610134126438495&rtpof=true",
         }
     ]);
 
@@ -26,12 +26,11 @@ export default function Res() {
                 <h2 className='header-h2'>Resume</h2>
             </div>
             <div className='work-div'>
-                {myRes.map((work) => {
+                {myRes.map((res) => {
                     return (
                     <WorkDiv
-                    image={work.image}
-                    title={work.title}
-                    resumeLink={work.resumeLink}
+                    image={res.image}
+                    resume={res.resume}
 
                     />
                     );

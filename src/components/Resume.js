@@ -13,7 +13,7 @@ export default function PropWork(props) {
             </figure>
             <div className="work-body">
                 <h3 className="work-title">{props.title}</h3>
-                <a className="work-links" href={props.deployed}>Deployed App</a>
+                <a className="work-links" href={props.resume}>Link</a>
             </div>
        ; </div>
     )
