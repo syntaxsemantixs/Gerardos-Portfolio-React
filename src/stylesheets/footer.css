@@ -1,0 +1,48 @@
+.div-footer {
+    position:relative;
+    bottom:0;
+    width: 100%;
+    text-align: center;
+    border-top: 5px solid #0283c3;
+    margin-top: 20px;
+}
+
+.f-img {
+    width: 50px;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+@media (max-width: 420px) {
+    .div-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .f-img {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+}
+
+
+@media (max-width: 680px) {
+    .div-footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin-top: 100px;
+    }
+
+    .f-img {
+        margin-left: 5px;
+        margin-right: 5px;
+    }
+
+}
