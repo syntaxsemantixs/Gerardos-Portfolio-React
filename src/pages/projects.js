@@ -7,7 +7,7 @@ import Bootleg from "../imgs/bootleg-spotify.png";
 import Pospamper from "../imgs/pospamper.png";
 import ProRead from "../imgs/pro-read-me.png";
 import Employee from "../imgs/employee.png";
-import Quiz from "../imgs/code-quiz.png";
+import Chop from "../imgs/chop.png";
 import "../stylesheets/App.css"
 import "../stylesheets/work.css"
 
@@ -43,11 +43,11 @@ export default function Work() {
             github: "https://github.com/syntaxsemantixs/employee-tracker"   
            },
            {
-            image: Quiz,
-            title: "Coding Quiz",
+            image: Chop,
+            title: "Chop Shop TKO",
             description: "One of the first projects created using frontend Javascript. This app cycles through questions for a coding quiz. Allows you to keep highscores and compete with friends.",
-            deployed: "https://syntaxsemantixs.github.io/coding-quiz-trivia/",
-            github: "https://github.com/syntaxsemantixs/coding-quiz-trivia"   
+            deployed: "https://chop-shop-tko.herokuapp.com/",
+            github: "https://github.com/gamesharks/chop-shop-tko"   
            }
     ]);
 
