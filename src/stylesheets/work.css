@@ -4,6 +4,11 @@
     border-bottom: 2px solid #0283c3;
  }
 
+ .special-tag:hover {
+   color: #0283c3;
+   text-shadow: 0 0 5px #0283c3, 0 0 20px ;
+}
+
  /* work body is the container for each project box */
  .div-work {
     width: 400px;

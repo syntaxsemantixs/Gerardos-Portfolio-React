@@ -3,7 +3,7 @@ import '../stylesheets/work.css';
 
 export default function PropWork(props) {
     return (
-        <div className="div-work">
+        <div className="div-work special-tag">
             <figure>
                 <img
                 src={props.image}

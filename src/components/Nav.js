@@ -10,20 +10,20 @@ export default function Nav() {
     const [links, setLinks] = useState([
         {
             name: 'About Me',
-            href: '/'
+            href: '/Gerardos-Portfolio-React'
         },
         {
             name: 'Projects',
             href: '/projects'
         },
         {
+            name: 'Resume',
+            href: '/resume'
+        },
+        {
             name: 'Contact',
             href: '/contact'
         },
-        {
-            name: 'Resume',
-            href: '/resume'
-        }
     ]); 
     return (
         <div className="div-nav">

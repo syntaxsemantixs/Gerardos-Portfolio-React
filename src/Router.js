@@ -9,10 +9,10 @@ export default function Router() {
     return (
       <>
         <Routes>
-          <Route path="/" element={<About />} />
+          <Route path="/Gerardos-Portfolio-React" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/contact" element={<Contact />} />
           <Route path="/resume" element={<Resume />} />
+          <Route path="/contact" element={<Contact />} />
         </Routes>
       </>
     );
