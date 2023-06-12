@@ -13,7 +13,7 @@ import "../stylesheets/work.css"
 
 export default function Work() {
     //calling in useState and creating the array of objects which will be my projects
-    const [myWork, setMyWork] = useState([
+    const [myWork] = useState([
         {
             image: Notetaker,
             title: "Notetaker Heroku App",

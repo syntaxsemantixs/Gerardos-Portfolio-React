@@ -9,7 +9,7 @@ import "../stylesheets/App.css";
 
 export default function Res() {
     //calling in useState and creating the array of objects which will be my projects
-    const [myRes, setMyRes] = useState([
+    const [myRes] = useState([
         {
             image: Resume,
             title: "Resume",
