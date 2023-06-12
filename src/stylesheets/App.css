@@ -28,8 +28,10 @@ body {
   border-bottom: 5px solid #0283c3;
 }
 
-.p-text {
+.text-container {
   color: #0283c3;
+  width: 600px;
+  word-wrap: break-word;
   font-size: 20px;
 }
 

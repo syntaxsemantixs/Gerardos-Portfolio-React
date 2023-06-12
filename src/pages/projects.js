@@ -3,7 +3,7 @@ import Header from "../components/Header.js";
 import Footer from "../components/Footer.js";
 import WorkDiv from "../components/Projects.js"
 // import photos of projects
-import Bootleg from "../imgs/bootleg-spotify.png";
+import Notetaker from "../imgs/notetaker.png";
 import Pospamper from "../imgs/pospamper.png";
 import ProRead from "../imgs/pro-read-me.png";
 import Employee from "../imgs/employee.png";
@@ -15,12 +15,19 @@ export default function Work() {
     //calling in useState and creating the array of objects which will be my projects
     const [myWork, setMyWork] = useState([
         {
-            image: Bootleg,
-            title: "Bootleg Spotify",
-            description: "App uses spotify and brings up artists latest albums.",
-            deployed: "https://rabarbosa1.github.io/Bootleg-Spotify/",
-            github: "https://github.com/rabarbosa1/Bootleg-Spotify"   
+            image: Notetaker,
+            title: "Notetaker Heroku App",
+            description: "App uses heroku to deploy a front-end notetaker that uses routes to follow the CRUD Model",
+            deployed: "https://notetaker-heroku-app.herokuapp.com/",
+            github: "https://github.com/syntaxsemantixs/notetaker-heroku-app"   
         },
+        {
+            image: Chop,
+            title: "Chop Shop TKO",
+            description: "One of the first projects created using frontend Javascript. This app cycles through questions for a coding quiz. Allows you to keep highscores and compete with friends.",
+            deployed: "https://chop-shop-tko.herokuapp.com/",
+            github: "https://github.com/gamesharks/chop-shop-tko"   
+           },
         {
             image: Pospamper,
             title: "Positively Pampered",
@@ -42,13 +49,6 @@ export default function Work() {
             deployed: "https://drive.google.com/file/d/1S2HUOvu12YxBfovXYzEPXsRGmq_IZIQu/view",
             github: "https://github.com/syntaxsemantixs/employee-tracker"   
            },
-           {
-            image: Chop,
-            title: "Chop Shop TKO",
-            description: "One of the first projects created using frontend Javascript. This app cycles through questions for a coding quiz. Allows you to keep highscores and compete with friends.",
-            deployed: "https://chop-shop-tko.herokuapp.com/",
-            github: "https://github.com/gamesharks/chop-shop-tko"   
-           }
     ]);
 
 
