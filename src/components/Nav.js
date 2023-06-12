@@ -9,7 +9,7 @@ export default function Nav() {
   const [links] = useState([
     {
       name: 'About Me',
-      href: '/Gerardos-Portfolio-React',
+      href: '/',
     },
     {
       name: 'Projects',
