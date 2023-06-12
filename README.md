@@ -17,6 +17,7 @@
   -Download REACT -npm run build -npm start
   ## Usage:
   ![Repo](./src/imgs/repo.png)
+  ![Website](https://gerardos-react-portfolio.netlify.app/)
 
   ## License
     This application is covered by the MIT license.
