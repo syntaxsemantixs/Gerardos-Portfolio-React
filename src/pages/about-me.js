@@ -17,7 +17,7 @@ export default function About() {
             <div className='about-pic'>
                 <img 
                     src={MyPic}
-                    alt="my picture"
+                    alt="Profile View"
                     className='my-pic'
                 />
             </div>
